@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#page {
+    width: 100%;
+    height: 100vh;
+    background-image: url("bgggg.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(19, 18, 18, 0.6);
+}
+
+.logo {
+    width: 30%;
+    color: rgb(218, 214, 34);
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logo i {
+    padding: 12px;
+}
+
+.navi {
+    width: 70%;
+}
+
+.navi ul {
+    font-size: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    text-align: center;
+}
+
+.navi ul li {
+    padding: 14px;
+    list-style: none;
+    color: rgb(253, 186, 85);
+}
+
+.navi ul li:hover {
+    color: rgb(255, 65, 65);
+    text-decoration: underline;
+}
+
+.navi ul a {
+    text-decoration: none;
+}
+
+#text {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 20px;
+    padding: 20px;
+    color: rgb(7, 7, 7);
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#text div img {
+    height: 400px;
+    width: 350px;
+}
+
+#text button {
+    padding: 3px;
+    font-size: 15px;
+    color: blue;
+    background-color: rgb(226, 196, 157);
+}
+
+#text button:hover {
+    color: darkred;
+}
+
+
+/* #text2 {
+    background-color: rgba(107, 248, 236, 0.1);
+} */
+
+.footer {
+    /* width: 100%; */
+    border: 8px solid rgb(22, 22, 22);
+    background-color: rgb(176, 204, 200);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer div ul li {
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.footer div i {
+    font-size: 20px;
+    padding: 30px;
+}
